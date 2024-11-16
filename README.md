@@ -18,8 +18,8 @@ All students and parents who are looking for an alternative to costly private tu
 [**...point us to the short clip that tells us about your solution 😄**](https://drive.google.com/file/d/1PudHprl1DlaEKoH2sV1AZS0k0W429G5P/view?usp=sharing)
 
 ### Link to Demo Presentation 📽
-[**...point us to your PPT or Canva slides 😍**](https://drive.google.com/file/d/1Pv3RfKRUhKgIcM4pKq24UGGtUf3NRCsn/view?usp=sharing)
-(https://www.canva.com/design/DAGWk4_57W8/2BTF_dstwa_k570I8pmpJQ/edit) canva slides
+[Demo](https://drive.google.com/file/d/1Pv3RfKRUhKgIcM4pKq24UGGtUf3NRCsn/view?usp=sharing)
+[canva](https://www.canva.com/design/DAGWk4_57W8/2BTF_dstwa_k570I8pmpJQ/edit)
 
 ### Team Checklist ✅
 - [x] Team photo
