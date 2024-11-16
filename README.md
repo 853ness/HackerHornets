@@ -19,6 +19,7 @@ All students and parents who are looking for an alternative to costly private tu
 
 ### Link to Demo Presentation 📽
 [**...point us to your PPT or Canva slides 😍**](https://drive.google.com/file/d/1Pv3RfKRUhKgIcM4pKq24UGGtUf3NRCsn/view?usp=sharing)
+(https://www.canva.com/design/DAGWk4_57W8/2BTF_dstwa_k570I8pmpJQ/edit) canva slides
 
 ### Team Checklist ✅
 - [x] Team photo
@@ -136,7 +137,7 @@ Hacker Hornets
 Immanuel Fowler - API, Backend
 Jared Bryant- Frontend, API
 Lynn Nzouadja-Keundo-  Research, Graphics
-Christopher Irving- Frontend
+Christepher Irving- Frontend
 Valery Louis- React
 OpenAI
 Firebase
