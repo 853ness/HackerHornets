@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e5e5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.white{
+  color: white;
+}
+.black{
+  color: black;
+}
+
+.red{
+  color:#B61F23
+}
+
+.bg-red{
+  background-color: #B61F23;
+}
+
+.blue{
+  color:#0D73B1;
+}
+
+.bg-blue{
+  background-color: #0D73B1;
+}
+
+.round-corner{
+  border-radius: 10%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+.log-out-button {
+  margin-left: auto; /* Push the button to the right */
+  background: #0d73b1;
+  border-radius: 999px;
+  box-shadow: #0d73b1 0 10px 20px -10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji,
+    "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system,
+    system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 24px;
+  padding: 10px 15px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.log-out-button:hover{
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  position: relative;
+  align-items: center; /* Vertically align items */
+  height: 80px; /* Adjust height as needed */
+  background-color: rgb(244, 242, 242); /* Optional background for nav */
+  padding: 0 20px; /* Space around the edges */
+  border-bottom: 1px solid #ddd; /* Optional border for separation */
+}
+
+.classroom-calendar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the header horizontally */
+  font-weight: bolder;
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+  max-height: 100%;
+  min-width: 500px;
+}
+
+/* Centering container */
+.login-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 90vh; /* Full viewport height */
+  margin: 0; /* Remove default margins */
+}
+
+/* Container */
+#app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #f4f4f4;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#main-header {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#logout-btn {
+  background-color: #0d73b1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+#logout-btn:hover {
+  background-color: #095a86;
+  transform: scale(1.05);
+}
+
+/* Login Section */
+#login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0d73b1, #095a86);
+  color: white;
+}
+
+#login-btn {
+  background-color: white;
+  color: #0d73b1;
+  border: 3px solid #0d73b1;
+  padding: 14px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+#login-btn:hover {
+  background-color: #0d73b1;
+  color: white;
+  transform: scale(1.1);
+  background-color: black;
+}
+
+#content-section {
+  padding: 20px;
+}
+
+#assignments,
+#grades {
+  margin: 20px 0;
+}
+
+#assignments h2,
+#grades h3 {
+  color: #0d73b1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Grades List */
+.grades-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 500px;
+}
+
+#grades, #assignments{
+  padding-top: 10px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  max-width: 600px;
+  min-height: 200px;
+  min-width: 500px;
+}
+
+.grade-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.grade-item:hover {
+  transform: translateY(-3px);
+}
+
+/* Loading Message */
+#loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Calendar Section */
+#calendar {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grade--overview{
+  margin-top: 40px;
+  padding-top: 30px;
+  
+}
+
+.gpt-bar{
+  width: 35%;
+  border-radius: 10px;
+  position: relative;
+  top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  justify-content: center;
+  place-items: center;
+}
